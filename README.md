@@ -1,177 +1,124 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Donating Pianist 💸 — Timeless Studios</title>
-<style>
-  :root{
-    --accent:#ffd700;
-    --link:#00bfff;
-    --bg:#000;
-    --muted:#bdbdbd;
-  }
-  html,body{height:100%;margin:0;background:var(--bg);color:#fff;font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;padding:20px}
-  .container{max-width:1000px;margin:0 auto}
-  header{display:flex;flex-direction:column;align-items:center;gap:12px}
-  h1{font-size:3.2rem;margin:8px 0;color:var(--accent);text-shadow:0 8px 40px rgba(255,204,0,0.12);animation:pop 900ms ease}
-  @keyframes pop{from{transform:translateY(-8px) scale(.98);opacity:0}to{transform:none;opacity:1}}
-  .sub{color:var(--muted);font-size:0.98rem}
-  .hero-cta{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-top:4px}
-  .btn{background:#fff;color:#000;padding:10px 16px;border-radius:12px;text-decoration:none;font-weight:700;box-shadow:0 6px 24px rgba(255,255,255,0.04)}
-  .ghost{background:transparent;color:var(--link);border:1px solid rgba(255,255,255,0.06);padding:8px 14px;border-radius:10px}
-  /* sections */
-  section{opacity:0;transform:translateY(18px);animation:fadeInUp 900ms ease forwards;animation-delay:100ms;margin:28px 0}
-  section:nth-of-type(2){animation-delay:200ms}
-  section:nth-of-type(3){animation-delay:300ms}
-  section:nth-of-type(4){animation-delay:400ms}
-  section:nth-of-type(5){animation-delay:500ms}
-  section:nth-of-type(6){animation-delay:600ms}
-  @keyframes fadeInUp{to{opacity:1;transform:none}}
-  h2{color: #fff;margin:10px 0;font-size:1.6rem}
-  p{color:#e9e9e9;font-size:1.02rem;line-height:1.8;margin:10px 0}
-  .muted{color:var(--muted);font-size:0.95rem}
-  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:12px}
-  .card{background:rgba(255,255,255,0.02);padding:16px;border-radius:12px;border:1px solid rgba(255,255,255,0.03)}
-  footer{margin:40px 0;color:var(--muted);font-size:0.95rem;text-align:center}
-  a{color:var(--link)}
-  /* small responsive tweaks */
-  @media (max-width:640px){
-    h1{font-size:2.2rem}
-  }
-</style>
-</head>
-<body>
-  <div class="container">
-    <header>
-      <h1>Donating Pianist 💸</h1>
-      <div class="sub">A musical, charitable, and social Roblox experience — brought back to life by dedicated creators.</div>
+<title>Donating Pianist 💸 — Timeless Studios</title> <style> :root{ --accent:#ffd700; --link:#00bfff; --bg:#000; --muted:#bdbdbd; } html,body{height:100%;margin:0;background:var(--bg);color:#fff;font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;padding:20px} .container{max-width:1000px;margin:0 auto} header{display:flex;flex-direction:column;align-items:center;gap:12px} h1{font-size:3.2rem;margin:8px 0;color:var(--accent);text-shadow:0 8px 40px rgba(255,204,0,0.12);animation:pop 900ms ease} @keyframes pop{from{transform:translateY(-8px) scale(.98);opacity:0}to{transform:none;opacity:1}} .sub{color:var(--muted);font-size:0.98rem} .hero-cta{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-top:4px} .btn{background:#fff;color:#000;padding:10px 16px;border-radius:12px;text-decoration:none;font-weight:700;box-shadow:0 6px 24px rgba(255,255,255,0.04)} .ghost{background:transparent;color:var(--link);border:1px solid rgba(255,255,255,0.06);padding:8px 14px;border-radius:10px} /* sections */ section{opacity:0;transform:translateY(18px);animation:fadeInUp 900ms ease forwards;animation-delay:100ms;margin:28px 0} section:nth-of-type(2){animation-delay:200ms} section:nth-of-type(3){animation-delay:300ms} section:nth-of-type(4){animation-delay:400ms} section:nth-of-type(5){animation-delay:500ms} section:nth-of-type(6){animation-delay:600ms} @keyframes fadeInUp{to{opacity:1;transform:none}} h2{color: #fff;margin:10px 0;font-size:1.6rem} p{color:#e9e9e9;font-size:1.02rem;line-height:1.8;margin:10px 0} .muted{color:var(--muted);font-size:0.95rem} .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:12px} .card{background:rgba(255,255,255,0.02);padding:16px;border-radius:12px;border:1px solid rgba(255,255,255,0.03)} footer{margin:40px 0;color:var(--muted);font-size:0.95rem;text-align:center} a{color:var(--link)} /* small responsive tweaks */ @media (max-width:640px){ h1{font-size:2.2rem} } </style>
+Donating Pianist 💸
+A musical, charitable, and social Roblox experience — brought back to life by dedicated creators.
+  <div class="hero-cta">
+    <a class="btn" href="https://www.roblox.com/games/100757291867914/Donate-to-Pianists-MOVED" target="_blank" rel="noopener">Play / Open on Roblox</a>
+    <a class="ghost" href="https://www.roblox.com/communities/9747114/Timeless-Studios#!/about" target="_blank" rel="noopener">•Timeless Studios• Group</a>
+    <a class="ghost" href="https://www.roblox.com/communities/33701186/Yahyas-imaginary-games" target="_blank" rel="noopener">Yahya's Imaginary Games</a>
+  </div>
+</header>
 
-      <div class="hero-cta">
-        <a class="btn" href="https://www.roblox.com/games/100757291867914/Donate-to-Pianists-MOVED" target="_blank" rel="noopener">Play / Open on Roblox</a>
-        <a class="ghost" href="https://www.roblox.com/communities/9747114/Timeless-Studios#!/about" target="_blank" rel="noopener">•Timeless Studios• Group</a>
-        <a class="ghost" href="https://www.roblox.com/communities/33701186/Yahyas-imaginary-games" target="_blank" rel="noopener">Yahya's Imaginary Games</a>
-      </div>
-    </header>
+<!-- Main visual with actual image -->
+<section aria-label="map image">
+  <img src="https://tr.rbxcdn.com/180DAY-b70622f11e6ccb38890e85cbb2518e67/768/432/Image/Webp/noFilter" 
+       alt="Donating Pianist Map" 
+       style="max-width:100%;border-radius:12px; display:block; margin:18px auto; box-shadow:0 10px 40px rgba(0,0,0,0.6);">
+</section>
 
-    <!-- Main visual with actual image -->
-    <section aria-label="map image">
-      <img src="https://tr.rbxcdn.com/180DAY-b70622f11e6ccb38890e85cbb2518e67/768/432/Image/Webp/noFilter" 
-           alt="Donating Pianist Map" 
-           style="max-width:100%;border-radius:12px; display:block; margin:18px auto; box-shadow:0 10px 40px rgba(0,0,0,0.6);">
-    </section>
+<!-- AD: Short promo -->
+<section aria-label="promo" >
+  <div class="card">
+    <h2>🎹 Quick Promo — Experience the Magic</h2>
+    <p style="font-weight:700;font-size:1.08rem">
+      Donating Pianist is where heart meets harmony — step up to the booth, play a tune on the piano, and watch your generosity ripple through the community. Whether you're here to perform, to donate, or to hang out, this map blends music and kindness into one unforgettable experience.
+    </p>
+    <p class="muted">Play now. Support creators. Be part of the revival.</p>
+  </div>
+</section>
 
-    <!-- AD: Short promo -->
-    <section aria-label="promo" >
-      <div class="card">
-        <h2>🎹 Quick Promo — Experience the Magic</h2>
-        <p style="font-weight:700;font-size:1.08rem">
-          Donating Pianist is where heart meets harmony — step up to the booth, play a tune on the piano, and watch your generosity ripple through the community. Whether you're here to perform, to donate, or to hang out, this map blends music and kindness into one unforgettable experience.
-        </p>
-        <p class="muted">Play now. Support creators. Be part of the revival.</p>
-      </div>
-    </section>
+<!-- Long article: detailed narrative -->
+<section aria-label="article">
+  <h2>Full Story & Article</h2>
+  <p>
+    In a landscape of fast-moving game trends, <strong>Donating Pianist 💸</strong> stands out as a gentle, human-centered experience. The map's premise is elegantly simple: a stage, an 88-key piano, booths for players, and a community-driven donation system that rewards creativity and connection. That simplicity is its strength — it invites real musicians, casual players, and generous fans to share a space that values performance and appreciation over leaderboard numbers.
+  </p>
+  <p>
+    The story of this map is as important as the map itself. At one point the place was nearly forgotten — few players logged on, and the community faded. That’s when <strong>Onopko</strong> stepped in. As the owner, Onopko invested months of careful work restoring and reopening the game. He updated mechanics, polished visuals, and re-tuned the booth and donation flows so that players would have reason to return. His dedication turned a neglected spot into a living room for musical expression.
+  </p>
+  <p>
+    Working alongside him is <strong>Night</strong>, a talented Arab developer who contributed important fixes and features. While I don't have a full biography for Night, it's clear his technical touch strengthened the experience. Night’s contributions helped stabilize the server, refine the piano's input responsiveness, and improve the overall feel of the game — small things that make the music feel real when you play.
+  </p>
+  <p>
+    The core mechanics — the <strong>Booth system</strong> and the piano — are intentionally social. Artists can reserve a booth, introduce themselves, and perform live. Listeners can tip or donate to support players who entertain the room. For creators, that system becomes a micro-economy of appreciation: a way to earn recognition and motivation to keep performing. For donors, it's a satisfying way to directly support creators in real time.
+  </p>
+  <p>
+    VIP tiers exist for players who want exclusive perks: visual name effects, special emotes, highlighted booths, or multipliers that influence donation outcomes. Buying VIP is presented not as a paywall but as a way to sustain the map and reward creators. For small development teams, VIP purchases keep servers online and fund further updates — something the community directly benefits from.
+  </p>
+  <p>
+    The scene today is modest but lively. The playerbase is not massive, but it's passionate; the steady presence of performers, tip-givers, and curious newcomers creates a warm atmosphere. Creativity breeds community, and that is the heart of Donating Pianist: a place where players remember each other's names, where a single beautiful piano piece can light up the server, and where donations feel like applause.
+  </p>
+  <p>
+    From a design perspective, the map emphasizes accessibility — the piano controls are intuitive, booths are easy to claim, and the UI keeps focus on performance. That accessibility invites casual players to try their hand at music, while allowing dedicated performers to build a following. It’s a delicate balance of casual fun and deep engagement.
+  </p>
+  <p>
+    Finally, beyond code and mechanics, Donating Pianist is a story of care. Onopko’s months of work, Night’s development efforts, and every player who returns to sit at the piano contribute to what this map is: a living, breathing small community that proves a modest project can have a big heart.
+  </p>
+</section>
 
-    <!-- Long article: detailed narrative -->
-    <section aria-label="article">
-      <h2>Full Story & Article</h2>
+<!-- Booth & Piano deep dive -->
+<section aria-label="booth piano">
+  <div class="grid">
+    <div class="card">
+      <h3>Booth Mechanics</h3>
       <p>
-        In a landscape of fast-moving game trends, <strong>Donating Pianist 💸</strong> stands out as a gentle, human-centered experience. The map's premise is elegantly simple: a stage, an 88-key piano, booths for players, and a community-driven donation system that rewards creativity and connection. That simplicity is its strength — it invites real musicians, casual players, and generous fans to share a space that values performance and appreciation over leaderboard numbers.
+        Booths are the center of social interaction. Players can rent a booth for a short time, customize their message, and accept tips. Booth highlights and priority visibility are often tied to VIP benefits, giving performers extra exposure when they’re playing important pieces.
       </p>
+    </div>
+    <div class="card">
+      <h3>The Piano Experience</h3>
       <p>
-        The story of this map is as important as the map itself. At one point the place was nearly forgotten — few players logged on, and the community faded. That’s when <strong>Onopko</strong> stepped in. As the owner, Onopko invested months of careful work restoring and reopening the game. He updated mechanics, polished visuals, and re-tuned the booth and donation flows so that players would have reason to return. His dedication turned a neglected spot into a living room for musical expression.
+        The piano uses a simple mapping system so players can play recognizable melodies. Responsiveness and sound quality were key focus points during the recode efforts — this makes musical collaborations and performances enjoyable for both players and listeners.
       </p>
-      <p>
-        Working alongside him is <strong>Night</strong>, a talented Arab developer who contributed important fixes and features. While I don't have a full biography for Night, it's clear his technical touch strengthened the experience. Night’s contributions helped stabilize the server, refine the piano's input responsiveness, and improve the overall feel of the game — small things that make the music feel real when you play.
-      </p>
-      <p>
-        The core mechanics — the <strong>Booth system</strong> and the piano — are intentionally social. Artists can reserve a booth, introduce themselves, and perform live. Listeners can tip or donate to support players who entertain the room. For creators, that system becomes a micro-economy of appreciation: a way to earn recognition and motivation to keep performing. For donors, it's a satisfying way to directly support creators in real time.
-      </p>
-      <p>
-        VIP tiers exist for players who want exclusive perks: visual name effects, special emotes, highlighted booths, or multipliers that influence donation outcomes. Buying VIP is presented not as a paywall but as a way to sustain the map and reward creators. For small development teams, VIP purchases keep servers online and fund further updates — something the community directly benefits from.
-      </p>
-      <p>
-        The scene today is modest but lively. The playerbase is not massive, but it's passionate; the steady presence of performers, tip-givers, and curious newcomers creates a warm atmosphere. Creativity breeds community, and that is the heart of Donating Pianist: a place where players remember each other's names, where a single beautiful piano piece can light up the server, and where donations feel like applause.
-      </p>
-      <p>
-        From a design perspective, the map emphasizes accessibility — the piano controls are intuitive, booths are easy to claim, and the UI keeps focus on performance. That accessibility invites casual players to try their hand at music, while allowing dedicated performers to build a following. It’s a delicate balance of casual fun and deep engagement.
-      </p>
-      <p>
-        Finally, beyond code and mechanics, Donating Pianist is a story of care. Onopko’s months of work, Night’s development efforts, and every player who returns to sit at the piano contribute to what this map is: a living, breathing small community that proves a modest project can have a big heart.
-      </p>
-    </section>
+    </div>
+  </div>
+</section>
 
-    <!-- Booth & Piano deep dive -->
-    <section aria-label="booth piano">
-      <div class="grid">
-        <div class="card">
-          <h3>Booth Mechanics</h3>
-          <p>
-            Booths are the center of social interaction. Players can rent a booth for a short time, customize their message, and accept tips. Booth highlights and priority visibility are often tied to VIP benefits, giving performers extra exposure when they’re playing important pieces.
-          </p>
-        </div>
-        <div class="card">
-          <h3>The Piano Experience</h3>
-          <p>
-            The piano uses a simple mapping system so players can play recognizable melodies. Responsiveness and sound quality were key focus points during the recode efforts — this makes musical collaborations and performances enjoyable for both players and listeners.
-          </p>
-        </div>
-      </div>
-    </section>
+<!-- VIP -->
+<section aria-label="vip">
+  <h2>VIP & Support</h2>
+  <p>
+    Investing in VIP is a direct way to support the creators. VIP typically unlocks:
+  </p>
+  <ul style="max-width:760px;margin:10px auto;text-align:left;color:#e6e6e6;line-height:1.7">
+    <li>Custom visual effects and name badges</li>
+    <li>Priority booth booking</li>
+    <li>Exclusive emotes and instrument skins</li>
+    <li>Donation multipliers or perks in community events</li>
+  </ul>
+  <p class="muted">Support helps keep servers online and funds future updates.</p>
+</section>
 
-    <!-- VIP -->
-    <section aria-label="vip">
-      <h2>VIP & Support</h2>
-      <p>
-        Investing in VIP is a direct way to support the creators. VIP typically unlocks:
-      </p>
-      <ul style="max-width:760px;margin:10px auto;text-align:left;color:#e6e6e6;line-height:1.7">
-        <li>Custom visual effects and name badges</li>
-        <li>Priority booth booking</li>
-        <li>Exclusive emotes and instrument skins</li>
-        <li>Donation multipliers or perks in community events</li>
-      </ul>
-      <p class="muted">Support helps keep servers online and funds future updates.</p>
-    </section>
-
-    <!-- credits and links -->
-    <section aria-label="credits">
-      <h2>Credits & Links</h2>
-      <div class="grid">
-        <div class="card">
-          <strong>Owner</strong>
-          <p>Onopko — owner and lead maintainer. He spent months rebuilding and polishing the experience. Thank you for your dedication.</p>
-        </div>
-        <div class="card">
-          <strong>Developer</strong>
-          <p>Night — contributor & Arab developer. Noted for technical fixes and making the piano perform smoothly. Big thanks to Night for the work.</p>
-        </div>
-        <div class="card">
-          <strong>Writer</strong>
-          <p>Yahya — page author. Connect on Roblox to follow updates.</p>
-        </div>
-      </div>
-
-      <p style="margin-top:14px">
-        Follow Yahya on Roblox: <a href="https://www.roblox.com/users/2328246746/profile" target="_blank" rel="noopener">https://www.roblox.com/users/2328246746/profile</a>
-      </p>
-      <p>
-        Official groups:
-        <br><a href="https://www.roblox.com/communities/9747114/Timeless-Studios#!/about" target="_blank" rel="noopener">•Timeless Studios•</a> |
-        <a href="https://www.roblox.com/communities/33701186/Yahyas-imaginary-games" target="_blank" rel="noopener">Yahya's Imaginary Games</a>
-      </p>
-
-      <p class="muted" style="margin-top:8px">If you like the project, please follow Yahya and follow the groups — your follow helps the community grow.</p>
-    </section>
-
-    <footer>
-      © <span id="year"></span> •Timeless Studios• — Donating Pianist 💸 · Written by Yahya
-    </footer>
+<!-- credits and links -->
+<section aria-label="credits">
+  <h2>Credits & Links</h2>
+  <div class="grid">
+    <div class="card">
+      <strong>Owner</strong>
+      <p>Onopko — owner and lead maintainer. He spent months rebuilding and polishing the experience. Thank you for your dedication.</p>
+    </div>
+    <div class="card">
+      <strong>Developer</strong>
+      <p>Night — contributor & Arab developer. Noted for technical fixes and making the piano perform smoothly. Big thanks to Night for the work.</p>
+    </div>
+    <div class="card">
+      <strong>Writer</strong>
+      <p>Yahya — page author. Connect on Roblox to follow updates.</p>
+    </div>
   </div>
 
-<script>
-  // set year
-  document.getElementById('year').textContent = new Date().getFullYear();
-</script>
-</body>
-</html>
+  <p style="margin-top:14px">
+    Follow Yahya on Roblox: <a href="https://www.roblox.com/users/2328246746/profile" target="_blank" rel="noopener">https://www.roblox.com/users/2328246746/profile</a>
+  </p>
+  <p>
+    Official groups:
+    <br><a href="https://www.roblox.com/communities/9747114/Timeless-Studios#!/about" target="_blank" rel="noopener">•Timeless Studios•</a> |
+    <a href="https://www.roblox.com/communities/33701186/Yahyas-imaginary-games" target="_blank" rel="noopener">Yahya's Imaginary Games</a>
+  </p>
+
+  <p class="muted" style="margin-top:8px">If you like the project, please follow Yahya and follow the groups — your follow helps the community grow.</p>
+</section>
+
+<footer>
+  © <span id="year"></span> •Timeless Studios• — Donating Pianist 💸 · Written by Yahya
+</footer>
+<script> // set year document.getElementById('year').textContent = new Date().getFullYear(); </script>
